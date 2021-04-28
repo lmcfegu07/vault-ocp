@@ -11,8 +11,8 @@ import org.springframework.vault.annotation.VaultPropertySource;
 
 
 @SpringBootApplication
-//@VaultPropertySource("secret/spring-native-example")
-@VaultPropertySource("internal/data/database/config")
+@VaultPropertySource("secret/spring-native-example")
+//@VaultPropertySource("internal/data/database/config")
 public class VaultDemoApplication {
 	
 	private Log log = LogFactory.getLog(VaultDemoApplication.class);
