@@ -9,7 +9,7 @@ spring.cloud.vault:
     authentication: KUBERNETES
     kv:
             enabled: true
-            backend: secret2 
+            backend: secret 
             profile-separator: '/'
             default-context: spring-native-example 
     kubernetes:

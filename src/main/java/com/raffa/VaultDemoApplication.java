@@ -11,7 +11,7 @@ import org.springframework.vault.annotation.VaultPropertySource;
 
 
 @SpringBootApplication
-@VaultPropertySource("secret2/data/spring-native-example")
+@VaultPropertySource("secret/data/spring-native-example")
 //@VaultPropertySource("internal/data/database/config")
 public class VaultDemoApplication {
 	
