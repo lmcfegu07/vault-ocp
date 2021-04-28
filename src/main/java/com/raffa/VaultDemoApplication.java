@@ -16,7 +16,7 @@ public class VaultDemoApplication {
 	
 	private Log log = LogFactory.getLog(VaultDemoApplication.class);
 
-	public static void mainX(String[] args) {
+	public static void main(String[] args) {
 		SpringApplication.run(VaultDemoApplication.class, args);
 	}
 
