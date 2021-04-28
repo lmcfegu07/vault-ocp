@@ -3,6 +3,3 @@
 path "secret/spring-native-example" {
   capabilities = ["read", "list"]
 }
-path "secret1/data/spring-native-example" {
-  capabilities = ["read", "list"]
-}
