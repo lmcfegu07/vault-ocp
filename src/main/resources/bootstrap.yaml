@@ -11,7 +11,7 @@ spring.cloud.vault:
             enabled: true
             backend: secret 
             profile-separator: '/'
-            default-context: spring-native-example 
+            default-context: data/spring-native-example 
     kubernetes:
         role: spring-native-example
         Aservice-account-token-file: /var/run/secrets/kubernetes.io/serviceaccount/token
