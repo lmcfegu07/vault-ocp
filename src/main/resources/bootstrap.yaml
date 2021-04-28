@@ -6,15 +6,9 @@ spring.cloud.vault:
     port: ${vault.port:8200}
     scheme: https
     authentication: KUBERNETES
-    kv:
-            enabled: true
-            backend: secret1 
-            profile-separator: '/'
-            default-context: database
     kubernetes:
         role: spring-native-example
-        Aservice-account-token-file: /var/run/secrets/kubernetes.io/serviceaccount/token
+        service-account-token-file: /var/run/secrets/kubernetes.io/serviceaccount/token
     config:
         order: 10
-
 logging.level.org.springframework: info                
